@@ -1,13 +1,18 @@
-site_name: OldInsuranceMaps.net
+site_name: OldInsuranceMaps.net - Docs
 site_url: https://oldinsurancemaps.net
-use_directory_urls: false # This is important to correctly display the documentation via Django
-site_dir: .docs # This is a directory where the documentation will be generated
+site_dir: .docs
 extra_css:
-  - stylesheets/extra.css
+  - _assets/stylesheets/extra.css
+extra:
+  homepage: https://oldinsurancemaps.net
 markdown_extensions:
+  - attr_list
   - admonition
-  - toc:
-      toc_depth: 3
+  - md_in_html
+plugins:
+  - search
+  - glightbox:
+      auto_caption: true
 theme:
   name: material
   palette:
@@ -15,8 +20,27 @@ theme:
     # accent: custom
   font:
     text: Josefin Sans
-  logo: assets/colored-full-linework.png
+  logo: _assets/images/colored-full-linework.png
+  favicon: _assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
 nav:
-  - 'index.md'
-  - 'viewer.md'
-  - 'browsing.md'
+  - Home:
+    - 'index.md'
+    - 'browsing.md'
+    - 'viewer.md'
+  - How it Works:
+    - overview.md
+  - Guides: 
+    - 'guides/index.md'
+    - 'guides/preparation.md'
+    - 'guides/georeferencing.md'
+    - 'guides/trimming.md'
+  - 'tutorial.md'
+  - Reference:
+    - 'reference/architecture.md'
+    - 'reference/installation.md'

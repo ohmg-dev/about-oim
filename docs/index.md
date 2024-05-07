@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# Learn about OldInsuranceMaps.net
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This documentation site will serve the needs of anyone interested in using, contributing, or installating their own deployment of OldInsuranceMaps.net, and the platform underneath it, Online Historical Map Georeferencer (OHMG).
 
-## Commands
+Related links:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [OldInsuranceMaps.net](https://oldinsurancemaps.net) - The actual project page
+- [ohmg.dev](https://ohmg.dev) - OHMG home page
