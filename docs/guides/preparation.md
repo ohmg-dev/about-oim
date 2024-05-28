@@ -4,11 +4,7 @@ sidebar_position: 1
 
 # Preparing Sheets
 
-Before a volume's sheet can be georeferenced, it must be visually evaluated to determine whether it contains more than one part of town in it. If it does, each of these parts must be split into separate documents.
-
-Here's a quick example of using the splitting interface to cut a sheet into three separate documents. *It is kind of a sloppy example, please be a bit more exact that this if you can!*
-
-![The splitting interface, ready to split this document into three new documents.](../_assets/images/alex-split.gif)
+Before a volume's sheet can be georeferenced, it must be visually evaluated to determine whether it contains more than one distinct region within it. For example, an inset on the page may show a different part of town, or a page may simply have two (or more) completely separate maps. In these cases, each of these parts must be split into separate documents so each one can be georeferenced individually.
 
 ## Background
 
@@ -35,6 +31,10 @@ its own new document, so that each area can be georeferenced on its own. Typical
 </div>
 
 ## Using the Interface
+
+Here's a quick example of using the splitting interface to cut a sheet into three separate documents. *It is kind of a sloppy example, please be a bit more exact that this if you can!*
+
+![The splitting interface, ready to split this document into three new documents.](../_assets/images/alex-split.gif)
 
 If this document **does not** to be split:
 

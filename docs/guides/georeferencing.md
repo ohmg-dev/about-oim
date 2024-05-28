@@ -2,17 +2,15 @@
 sidebar_position: 2
 ---
 
-# Georeferencing the Documents
+# Georeference a Document
 
-"Georeferencing" is the process that embded geospatial metadata into a historical map so it can be added to a modern web map or other GIS software.
+"Georeferencing" is the process that embeds geospatial metadata into a historical map, allowing it to be integrated into modern web maps or other GIS software.
 
-Users perform this task by creating "ground control points" that link features on the old map (XY pixel locations on the document) with latitude/longitude coordinates was represented on the web map.
+Users perform this task by creating "ground control points," or GCPs, that link features on the old map with latitude/longitude coordinates was represented on the web map.
 
 ![The georeferencing interface, with 3 control points added and the preview visible.](../_assets/images/alex-georef.gif)
 
-## Background
-
-Use this interface to create the **ground control points** that will be used to georeference this document. Creating a ground control point requires two clicks&mdash;one in the left panel and one in the right. This records a linkage between a spot on the original map document and the real-world latitude/longitude coordinates for that location.
+Creating a ground control point requires two clicks&mdash;one in the left panel and one in the right. This records a linkage between a spot on the original map document and the real-world latitude/longitude coordinates for that location.
 
 ![Once 3 control points are present, a semi-transparent preview will appear.](../_assets/images/alex-3-georeference.jpg)
 
@@ -67,7 +65,7 @@ Transformations:
 - Switching to <code>Thin Plate Spline</code> will allow the image to distort and warp to fit all control points exactly, which _could_ be necessary in rare circumstances.
 - You can read more about GDAL transformation algorithms in the <a href="https://docs.qgis.org/3.16/en/docs/user_manual/working_with_raster/georeferencer.html#available-transformation-algorithms" target="_blank">QGIS documentation <i class="fa fa-external-link"></i></a> (note: we are only using the Polynomial 1 transformation here).
 
-Tips:
+## Georeferencing Tips
 
 - Prioritize finding control points that are widely spread across the map.
 - Look for locations that have changed the least over time. For example, the center of street intersections, railroad crossings, or, in some cases, the corners or centers of old buildings.
