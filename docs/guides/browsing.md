@@ -12,7 +12,7 @@ Generally, each method can be used to find any map in the system, but there are 
 
 Click a point on the map to view its georeferenced Sanborn Maps. Click **view &rarr;** to open the [viewer](./viewer.md) for all volumes at once, or choose a volume/edition to go to its detailed summary.
 
-![Browse by map interface](_assets/images/browse-by-map.png)
+![Browse by map interface](../_assets/images/browse-by-map.png)
 
 Points on the map represent "places" (generally, cities, towns, or villages) with at least one volume that has at least one georeferenced document (the point is the centroid of all layer extents). This means that if volumes have been loaded for a place but none of their sheets have been georeferenced, there will be no way to find that content through this search method.
 
@@ -20,13 +20,13 @@ Points on the map represent "places" (generally, cities, towns, or villages) wit
 
 Find a place by name. Click the place name to open it in the main viewer, or choose a year to go directly to that volume summary.
 
-![Browse by map interface](_assets/images/browse-by-place.png)
+![Browse by map interface](../_assets/images/browse-by-place.png)
 
 ## Browse by Volume
 
 Search volumes by name, and click the title to go to the volume summary. You can sort the table by any column.
 
-![Browse by volume interface](_assets/images/browse-by-volume.png)
+![Browse by volume interface]../_assets/images/browse-by-volume.png)
 
 On the right, you'll see abbreviated columns holding more detailed information about the volume:
 

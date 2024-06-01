@@ -1,4 +1,4 @@
-site_name: OldInsuranceMaps.net - Docs
+site_name: About OldInsuranceMaps.net
 site_url: https://oldinsurancemaps.net
 site_dir: .docs
 extra_css:
@@ -15,6 +15,7 @@ plugins:
       auto_caption: true
 theme:
   name: material
+  custom_dir: overrides
   palette:
     primary: custom
     # accent: custom
@@ -31,16 +32,17 @@ theme:
 nav:
   - Home:
     - 'index.md'
-    - 'browsing.md'
-    - 'viewer.md'
-  - How it Works:
-    - overview.md
+    - 'community.md'
+    - 'faq.md'
+    - 'sanborn-maps.md'
+    - 'background.md'
+    - 'credits.md'
   - Guides: 
     - 'guides/index.md'
+    - 'guides/browsing.md'
+    - 'guides/viewer.md'
     - 'guides/preparation.md'
     - 'guides/georeferencing.md'
     - 'guides/trimming.md'
   - 'tutorial.md'
-  - Reference:
-    - 'reference/architecture.md'
-    - 'reference/installation.md'
+  - Go to OldInsuranceMaps.net &rarr;: 'https://oldinsurancemaps.net'
