@@ -1,6 +1,6 @@
-# docs
+# About OldInsuranceMaps.net
 
-Documentation for OldInsuranceMaps.net, and, at least for now, the underlying Online Historical Map Georeferencer in general.
+A static site for information and documentation about OldInsuranceMaps.net. See [ohmg-dev/OldInsuranceMaps](https://github.com/ohmg-dev/OldInsuranceMaps) for the georeferencing application code base, or [ohmg-dev/ohmg-website](https://github.com/ohmg-dev/ohmg-website) for the OHMG information site at [ohmg.dev](https://ohmg.dev).
 
 # Local install
 
@@ -11,6 +11,7 @@ The pypi packages used are `mkdocs-material`, `mkdocs-glightbox`, though the ful
 To install the documentation locally use the following steps:
 
 ```
+git clone https://github.com/ohmg-dev/about-oim && cd about-oim
 python3 -m venv env
 source ./env/bin/activate
 pip install -r requirements.txt
