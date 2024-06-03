@@ -52,7 +52,7 @@ And a "multimask" that allows a volume's sheets to be trimmed *en masse*, a quic
 
 ![Trimming interface](_assets/images/example-multimask-alex-1900.jpg)
 
-Learn more in [this guide](./guides/trimmings.md).
+Learn more in [this guide](./guides/trimming.md).
 
 ## Work Sessions
 
