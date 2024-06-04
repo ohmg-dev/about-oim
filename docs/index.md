@@ -1,6 +1,6 @@
 # Welcome!
 
-This documentation site will serve the needs of anyone interested in using OldInsuranceMaps.net, and the platform underneath it, Online Historical Map Georeferencer (OHMG).
+OldInsuranceMaps.net is a crowdsourcing site for creating and viewing georeferenced mosaics of historical fire insurance maps, based on the digital Sanborn map collection at the Library of Congress.
 
 For related content that is located on other sites, see:
 
