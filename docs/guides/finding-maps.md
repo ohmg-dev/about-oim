@@ -1,4 +1,4 @@
-# Browsing the Content
+# Finding maps
 
 You can search for map content in three different ways, all of which are accessible in the main [Browse](https://oldinsurancemaps.net/browse) page.
 
@@ -36,6 +36,6 @@ On the right, you'll see abbreviated columns holding more detailed information a
 | **P** | Number of prepared prepared documents (i.e. ready to be georeferenced) |
 | **G** | Number of georeferenced documents |
 | **%** | Overall percentage of georeferenced documents from the volume |
-| **MM** | Number of georeferenced layers that are included in the volume's "multimask". Typically the denominator will be one less than the number of georeferenced layers because the multimask will not include the volume's Key Map. |
+| **MM** | Number of georeferenced layers that are included in the volume's "multimask". Typically the denominator will be one less than the number of georeferenced layers because the multimask will not include the volume's key map. |
 
 Power users can sort on these columns to see where their work can be the most effective.

@@ -1,12 +1,12 @@
 # Welcome!
 
-OldInsuranceMaps.net is a crowdsourcing site for creating and viewing georeferenced mosaics of historical fire insurance maps, based on the digital Sanborn map collection at the Library of Congress.
+_OldInsuranceMaps.net_ is a public space for creating and viewing georeferenced mosaics of historical fire insurance maps from the Library of Congress Sanborn Maps collection.
 
-For related content that is located on other sites, see:
+!!! tip "Important links"
 
-- [OldInsuranceMaps.net](https://oldinsurancemaps.net) - The main platform and georeferencing application.
-- [Online Historical Map Georeferencer (OHMG)](https://ohmg.dev) - Information about the concepts and open source software behind this project, including architecture and installation docs.
-- [OpenHistoricalMap Forum &rarr; OldInsuranceMaps.net](https://forum.openhistoricalmap.org/c/oldinsurancemaps/13) - Drop by to introduce yourself, and feel free to ask questions about the project and how people are using it.
+    - [OldInsuranceMaps.net](https://oldinsurancemaps.net) - The main platform and georeferencing application.
+    - [Online Historical Map Georeferencer (OHMG)](https://ohmg.dev) - Information about the concepts and open source software behind this project, including architecture and installation docs.
+    - [OpenHistoricalMap Forum &rarr; OldInsuranceMaps.net](https://forum.openhistoricalmap.org/c/oldinsurancemaps/13) - Drop by to introduce yourself, and feel free to ask questions about the project and how people are using it.
 
 ## Site Overview
 

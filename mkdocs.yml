@@ -32,17 +32,24 @@ theme:
 nav:
   - Home:
     - 'index.md'
+    - 'getting-started.md'
     - 'community.md'
     - 'faq.md'
     - 'sanborn-maps.md'
     - 'background.md'
     - 'credits.md'
-  - Guides: 
+  - Using the platform: 
     - 'guides/index.md'
-    - 'guides/browsing.md'
-    - 'guides/viewer.md'
-    - 'guides/preparation.md'
-    - 'guides/georeferencing.md'
-    - 'guides/trimming.md'
+    - Exploring content:
+      - 'guides/finding-maps.md'
+      - 'guides/viewer.md'
+    - Creating georeferenced content:
+      - 'guides/preparation.md'
+      - 'guides/georeferencing.md'
+      - 'guides/trimming.md'
   - 'tutorial.md'
+  - Understanding the concepts:
+      - 'guides/trimming.md'
+  - Reference:
+      - 'guides/trimming.md'
   - Go to OldInsuranceMaps.net &rarr;: 'https://oldinsurancemaps.net'

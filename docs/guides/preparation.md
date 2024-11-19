@@ -1,8 +1,4 @@
----
-sidebar_position: 1
----
-
-# Preparing Sheets
+# Using the splitting interface
 
 Before a volume's sheet can be georeferenced, it must be visually evaluated to determine whether it contains more than one distinct region within it. For example, an inset on the page may show a different part of town, or a page may simply have two (or more) completely separate maps. In these cases, each of these parts must be split into separate documents so each one can be georeferenced individually.
 

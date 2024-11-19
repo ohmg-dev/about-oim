@@ -1,8 +1,8 @@
-# Using the Viewer
+# Using the viewer
 
 !!! warning
 
-    It is easy to over-interpret georeferenced historical maps, because they may contain factual mistakes (yes, even the Sanborn Map Company isn't perfect) or they may be distorted or misaligned when compared to aerial imagery. Please keep this in mind when using this site!
+    **It is easy to over-interpret georeferenced historical maps**, because they may contain factual mistakes (yes, even the Sanborn Map Company isn't perfect) or they may be distorted or misaligned when compared to aerial imagery. Please keep this in mind when using this site!
 
 The viewer aggregates all content for a given place, presenting each volume's content in a single mosaicked layer. You can turn on each layer by clicking the year (or circle by the year) and you can fine-tune each layer's opacity with the slider.
 

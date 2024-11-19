@@ -1,8 +1,4 @@
----
-sidebar_position: 2
----
-
-# Georeference a Document
+# Using the georeferencing interface
 
 "Georeferencing" is the process that embeds geospatial metadata into a historical map, allowing it to be integrated into modern web maps or other GIS software.
 
