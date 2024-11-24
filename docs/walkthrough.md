@@ -18,7 +18,7 @@ Broadly speaking, here is the recommended approach:
 1. [Load the documents](#load-the-documents)
 1. [Prepare the documents](#prepare-the-documents)
 2. [Georeference and classify the "key map"](#georefernce-and-classify-the-key-map)
-4. [Georeference the rest](#georeference-the-rest)
+4. [Georeference all other layers](#georeference-the-rest)
 5. [Trim all the layers in the "MultiMask"](#trim-the-layers)
 6. [Make the final mosaic](#make-the-final-mosaic)
 
@@ -43,7 +43,7 @@ While this action is better covered in the [finding maps](/guides/finding-maps.m
     - `https://oldinsurancemaps.net/<city/town name, state postal code>`
     - Example: [oldinsurancemaps.net/new-iberia-la](https://oldinsurancemaps.net/new-iberia-la)
 
-In this case we head to [oldinsurancemaps.net/new-iberia-la](https://oldinsurancemaps.net/new-iberia-la), and **check the "show all" box.
+In this case we head to [oldinsurancemaps.net/new-iberia-la](https://oldinsurancemaps.net/new-iberia-la). Be sure to **check the "show all" box** to find maps that have not yet been loaded.
 
 ![listing maps of New Iberia](./_assets/images/tutorial-new-iberia-locale.png)
 
@@ -57,6 +57,10 @@ When a map has been added to the system, an entry is made for it but the actual 
 
 ![Load documents button](./_assets/images/tutorial-new-iberia-load-docs.png)
 
+!!! tip
+
+    If you don't see this button, make sure you are logged in.
+
 The documents will load in the background, no need to stay on this page. Once the first one has loaded we'll see it in the **Unprepared** section. In fact, this first document is an important one, as it has the "key map", so we can begin working with it right away.
 
 ![The first document has loaded, others will continue to load in the background](./_assets/images/tutorial-new-iberia-one-loaded.png)
@@ -69,15 +73,15 @@ In this particular Sanborn Map, there is a "key map" on the first document. It i
 
 With a little visual inspection, we can see that there are dark black lines within this page that separate it into different regions. This sheet must be "split" along these lines so that each region can be georeferenced individually. Clicking the **split this document** link will bring us an interface for doing just that.
 
-![Splitting the first document into three pieces](./_assets/images/tutorial-new-iberia-splitting.png)
-
-Once the cut-lines have been drawn, and the preview clearly shows that three new regions will be created that match the divisions within the page, the process
-
 !!! tip
 
     See [Splitting documents](./guides/preparation.md) for more instruction on how to use this interface.
 
-When the split it submitted you will be taken back to the overview page, and after a few seconds, the newly split items will be added to the **Prepared** section.
+![Splitting the first document into three pieces](./_assets/images/tutorial-new-iberia-splitting.png)
+
+Once the cut-lines have been drawn, and the preview clearly shows that three new regions will be created that match the divisions within the page, the process can be started. Click the scissors button to submit these cut-lines.
+
+When the split it submitted you will be taken back to the overview page, and after a few seconds, the newly split items will aopear in the **Prepared** sectionm, while the original "page 1" has been removed from the **Uprepared** section.
 
 ![First document has been split into three pieces](./_assets/images/tutorial-new-iberia-one-split.png)
 
@@ -85,7 +89,7 @@ Also, now you can see the other two documents have loaded while we were preparin
 
 ### No split needed
 
-Preparing these pages will be even easier. By looking at them closely we can see that, unlike the first document, they are _not_ divided into multiple regions; each sheet just shows one whole map. So, for each one we click the **no split needed** button, and they will be moved into the **Prepared** section. Now everything is ready to be georeferenced.
+Preparing these final two pages will be even easier. By looking at them closely we can see that, unlike the first page, they are _not_ divided into multiple regions; each sheet just shows one whole map. So, for each one we click the **no split needed** button, and they will be moved into the **Prepared** section. Now everything is ready to be georeferenced.
 
 ![All documents have been prepared](./_assets/images/tutorial-new-iberia-all-prepared.png)
 
@@ -103,13 +107,13 @@ One small piece of the first document, **page 1 [3]**, is actually the "key map"
 
 Clicking **georeference** on the key map item will navigate to the georeferencing interface.
 
-![Georeferencing the key map](./_assets/images/tutorial-new-iberia-georef-key-map.png)
-
-Once there are three ground control points added to the interface, a preview of it will appear automatically, showing you how it overlays onto today's map. When the preview looks good (i.e. not skewed or distorted, and clearly match today's road network), the georeferencing can be submitted.
-
 !!! tip
 
     See [Georeferencing](./guides/preparation.md) for more instruction on how to use this interface.
+
+![Georeferencing the key map](./_assets/images/tutorial-new-iberia-georef-key-map.png)
+
+Once there are three ground control points added to the interface, a preview of it will appear automatically, showing you how it overlays onto today's map. When the preview looks good (i.e. not skewed or distorted, and clearly match today's road network), the georeferencing can be submitted.
 
 After submission, the page will redirect back to the map summary. It may take a few seconds, but once the background process is completed, the newly created layer will now be in the **Georeferenced** section, moved down from the **Prepared** section. Notice, the thumbnail is tilted, now that the layer has been warped.
 
@@ -129,11 +133,11 @@ With the key map now georeferenced and classified, it's time to continue with th
 
 ### Key map as reference layer
 
-When we enter the georeferencing interface for page 2, we can see that the key map is now automatically added to the interface as an optional reference layer.
+When we enter the georeferencing interface for page 2, we can see that the key map is now automatically added to the interface as an optional "reference" layer.
 
 ![Georeferencing page 2, the key map is automatically added as a reference layer](./_assets/images/tutorial-new-iberia-georef-page-2.png)
 
-This is especially helpful on very large volumes, because it makes it much easier to find the location of the region you are working with.
+This is especially helpful on very large volumes, because it makes it much easier to find the location of the region you are working with. To turn the key map layer off, use the **Reference** dropdown, the keyboard shortcut "r".
 
 ### Other georeferenced content as reference layers
 
@@ -142,3 +146,13 @@ _todo: add this section with the next couple of sheets_
 ### Very small and difficult pieces
 
 Not everything can, or should, be georeferenced.....
+
+## Trim the layers
+
+Use the MultiMask tool to create mask boundaries around every layer in the "Main Content" category.
+
+## Make the mosaic
+
+Once the MultiMask includes every layer, a single mosaicked GeoTIFF can be created. In the future, this may be automated, but for now, please just email `hello@oldinsurancemaps.net`.
+
+When a mosaic has been made, it will be available for download in the **Summary** section of the map overview page.

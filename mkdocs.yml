@@ -32,7 +32,7 @@ theme:
 nav:
   - Home:
     - 'index.md'
-    - 'getting-started.md'
+    # - 'getting-started.md'
     - 'community.md'
     - 'faq.md'
     - 'sanborn-maps.md'
@@ -48,8 +48,8 @@ nav:
       - 'guides/georeferencing.md'
       - 'guides/trimming.md'
   - 'tutorial.md'
-  - Understanding the concepts:
-      - 'guides/trimming.md'
-  - Reference:
-      - 'guides/trimming.md'
+  # - Understanding the concepts:
+  #     - 'guides/trimming.md'
+  # - Reference:
+  #     - 'guides/trimming.md'
   - Go to OldInsuranceMaps.net &rarr;: 'https://oldinsurancemaps.net'
