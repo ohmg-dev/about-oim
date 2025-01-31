@@ -29,8 +29,9 @@ figcaption {
     font-size: .85em;
 }
 
-.glightbox-clean.gslide-title {
-    font-family: 'Josefin Sans';
+/* override glightbox caption font family */
+.glightbox-clean .gslide-title {
+    font-family: 'Josefin Sans' !important;
 }
 
 /* .md-main > .md-grid {

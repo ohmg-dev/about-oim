@@ -32,24 +32,22 @@ theme:
 nav:
   - Home:
     - 'index.md'
-    # - 'getting-started.md'
     - 'community.md'
+    - 'getting-started.md'
     - 'faq.md'
     - 'sanborn-maps.md'
     - 'background.md'
     - 'credits.md'
   - Using the platform: 
     - 'guides/index.md'
-    - Exploring content:
-      - 'guides/finding-maps.md'
-      - 'guides/viewer.md'
     - Creating georeferenced content:
       - 'guides/preparation.md'
       - 'guides/georeferencing.md'
       - 'guides/trimming.md'
-  - 'tutorial.md'
-  # - Understanding the concepts:
-  #     - 'guides/trimming.md'
-  # - Reference:
-  #     - 'guides/trimming.md'
+    - Exploring content:
+      - 'guides/finding-maps.md'
+      - 'guides/viewer.md'
+  - Walkthroughs:
+    - 'walkthroughs/new-iberia-la-1885.md'
+    - 'walkthroughs/alexandria-la-1900.md'
   - Go to OldInsuranceMaps.net &rarr;: 'https://oldinsurancemaps.net'
