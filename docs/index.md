@@ -10,7 +10,7 @@ _OldInsuranceMaps.net_ is a public space for creating and viewing georeferenced 
 
 ## Site Overview
 
-You can browse content in the platform by map, by place name, or by map name. To learn more about these search methods, see [Browsing the Content](./guides/browsing.md)
+You can browse content in the platform by map, by place name, or by map name. To learn more about these search methods, see [Finding maps](./guides/finding-maps.md).
 
 ![Homepage](_assets/images/browse.jpg)
 

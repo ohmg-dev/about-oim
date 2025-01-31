@@ -1,6 +1,6 @@
-# Using the splitting interface
+# Splitting documents
 
-Before a volume's sheet can be georeferenced, it must be visually evaluated to determine whether it contains more than one distinct region within it. For example, an inset on the page may show a different part of town, or a page may simply have two (or more) completely separate maps. In these cases, each of these parts must be split into separate documents so each one can be georeferenced individually.
+Before a document can be georeferenced, it must be visually evaluated to determine whether it contains more than one distinct region within it. For example, an inset on the page may show a different part of town, or a page may simply have two (or more) completely separate maps. In these cases, each of these parts must be split into separate documents so each one can be georeferenced individually.
 
 ## Background
 
@@ -8,8 +8,6 @@ Sometimes an old map document will cover discontiguous areas, especially when th
 fit a lot of content into a single page. In these cases, each separate area in the original document must be split into
 its own new document, so that each area can be georeferenced on its own. Typically, you'll find
 **strong black lines** delineating different parts of the map. The document must be split along those lines.
-	<!-- <img width="100%" src="https://oldinsurancemaps.net/static/img/split-example-p1-anno.jpg" /> -->
-
 
 <div markdown="span" style="display:flex; flex-direction:row;">
 	<figure markdown="span" style="width:33%; padding:5px;">
@@ -32,32 +30,20 @@ Here's a quick example of using the splitting interface to cut a sheet into thre
 
 ![The splitting interface, ready to split this document into three new documents.](../_assets/images/alex-split.gif)
 
-If this document **does not** to be split:
-
-- Click <code>No Split Needed</code>.
-- You will be redirected to the document detail page, from which you can continue the georeferencing process.
-- If you chose this by mistake, you can undo the designation in the document detail page.
-
-If this document **does** need to be split
+### Splitting the document
 
 - Use the interface to create as many cut-lines as are needed to fully split this document.
 - Once you have one or more valid cut-lines, a preview will appear showing how the image will be split.
-- Click <code>Split</code> when you are ready.
-- You will be redirected to the document detail page, while the split process runs in the background.
-- If you split the document incorrectly, you can undo the process in the document detail page.
+- Click the scissors icon when you are ready.
+- You will be redirected to the map overview page, while the split process runs in the background.
+- If you split the document incorrectly, you can undo the process from the map summary page.
 
-Fixing an incorrect determination:
+### Creating cut-lines
 
-- In the document detail page, you can undo this operation as long as no georeferencing has been performed.
-- Look for the undo <i class="fa fa-undo"></i> button under the <code>Preparation</code> heading.
-- If the button is disabled but you believe the split process was performed incorrectly, please contact an admin.
-
-Creating cut-lines:
-
-- In <code>Draw</code> mode, click once to start or continue a line, and double-click to finish it.
-- Press <code>Esc</code> to cancel an in-progress drawing.
-- Switch to <code>Modify</code> mode to change a cut-line.
-- Click <i class="fa fa-refresh"></i> to erase all lines and start over.
+- In **Draw** mode, click once to start or continue a line, and double-click to finish it.
+- Press **Esc** to cancel an in-progress drawing.
+- Switch to **Modify** mode to change a cut-line.
+- Click the "refresh" button to erase all lines and start over.
 
 Understanding cut-lines:
 

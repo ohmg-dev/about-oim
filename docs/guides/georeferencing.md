@@ -1,4 +1,4 @@
-# Using the georeferencing interface
+# Georeferencing layers
 
 "Georeferencing" is the process that embeds geospatial metadata into a historical map, allowing it to be integrated into modern web maps or other GIS software.
 
